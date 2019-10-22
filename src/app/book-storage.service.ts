@@ -14,12 +14,14 @@ export interface IBook {
 export class BookStorageService {
 
   constructor() {
+    /*
     const book: IBook[] = [
-      { id: 1, name: 'Book001', date: new Date()},
-      { id: 2, name: 'Book002', date: new Date()},
-      { id: 3, name: 'Book003', date: new Date()},
+      { id: 1, name: 'Sample001', date: new Date()},
+      { id: 2, name: 'Sample002', date: new Date()},
+      { id: 3, name: 'Sample003', date: new Date()},
     ];
     book.forEach(b => this.add(b));
+    */
   }
 
   fetch(): IBook[] {

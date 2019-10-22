@@ -1,4 +1,19 @@
-<p>book works!</p>
+<a href="#" class="button" (click)="this.clear()">CLEAR</a>
+<a href="#" class="button" (click)="this.add()">ADD</a>
 
-<button class="add" (click)="this.add()">add</button>
-<div *ngFor='let book of books'> {{book.name}} / {{book.date}} </div>
+<table>
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor='let book of books'>
+      <td>{{book.id}}</td>
+      <td>{{book.name}}</td>
+      <td>{{book.date}}</td>
+    </tr>
+  </tbody>
+</table>
