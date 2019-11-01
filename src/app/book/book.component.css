@@ -33,3 +33,11 @@ a.button:active {
   border-bottom: 2px solid #26C6DA;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.30);
 }
+
+.container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
